@@ -161,4 +161,57 @@ Bu kısımda metamask üzerinde BSC Testnet ağı lazım olacak. Metamask'ınız
 
 ![image](https://user-images.githubusercontent.com/101462877/190594305-179f82e7-2f43-40e5-873a-2d3e35269edf.png)
 
-# BSC Testneti metamask'e ekledikten sonra https://test-staking.nulink.org/faucet adresine gidiyoruz.
+# Ardından https://testnet.binance.org/faucet-smart adresine gidiyoruz ve test BNB alıyoruz.
+
+![image](https://user-images.githubusercontent.com/101462877/190595471-05f0602c-e831-4e74-91a0-dfe8da4ece7d.png)
+
+
+# BSC Testneti metamask'e ekledikten ve test BNB aldıktan sonra https://test-staking.nulink.org/faucet adresine gidiyoruz ve cüzdan bağlayıp faucet'e tıklıyoruz.
+
+![image](https://user-images.githubusercontent.com/101462877/190596016-dea51928-0079-4a11-a446-4fb714b792c0.png)
+
+# Test tokenları başarıyla aldıktan sonra `stake` kısmına gelerek test tokenları stake ediyoruz.
+
+![image](https://user-images.githubusercontent.com/101462877/190596306-6222875f-33a7-4b2d-a79d-85725b687995.png)
+
+![image](https://user-images.githubusercontent.com/101462877/190596405-e10d4373-8e94-4ac6-8bfe-935152085e92.png)
+
+# Tokenları stake ettikten sonra `Bond Worker`a tıklayıp tokenları bond ediyoruz.
+
+![image](https://user-images.githubusercontent.com/101462877/190596602-9d39b53e-a248-45f8-af10-c12680cd2f1d.png)
+
+![image](https://user-images.githubusercontent.com/101462877/190596979-2de3561f-c816-44bd-a7f5-01dcf7be4a36.png)
+
+Bu kısımda doldurmanız gereken yerler;
+
+- `Worker Address`: Aşağıda sarı kutuyla gösterdiğim Public Address'iniz.
+
+![image](https://user-images.githubusercontent.com/101462877/190597172-0e241a3f-8574-4995-a15e-75a4b1e77abf.png)
+
+- `Node URI`: https://xxxxxxxx:9151  xxxxxxxxxxx kısımları Sunucu IP'niz. Örneğin: https://123.456.789.012:9151
+
+
+# Ardından `Node List` kısmına gelip node'unuzun aktif olup olmadığına bakabilirsiniz. Aşağıdaki gibi `online` gözüküyorsa doğru yapmışsınız demektir.
+
+![image](https://user-images.githubusercontent.com/101462877/190598135-72403549-3272-41b3-881d-59c5813bd6f6.png)
+
+# Node'unuzu kurup token bond ettikten sonra log'lar aşağıdaki gibi olacaktır. Terminal üzerinde screen'den çıkmak için önce Ctrl + A 'ya basın, 1-2 saniye sonra D'ye basın.
+
+![image](https://user-images.githubusercontent.com/101462877/190599242-3f083159-bf70-44f1-9aff-d644fa9ca2ac.png)
+
+
+# FEEDBACK VERMEYİ UNUTMAYIN. KATILAN ANCAK FEEDBACK VERMEYENLERİN ÖDÜL ALMAYACAĞI BELİRTİLMİŞ.
+
+![image](https://user-images.githubusercontent.com/101462877/190599726-c6a5a506-735b-4fa3-a597-1f8bf0e54d0b.png)
+
+
+Feedback Linki: https://bit.ly/NuLinkFeedback
+
+
+# ÖDÜLLÜ TESTNET İÇİN İLK AŞAMA BU KADARDI. HERHANGİ BİR SORUNUZDA AŞAĞIDAKİ TELEGRAM ADRESLERİNDE BİZE ULAŞABİLİRSİNİZ.
+
+- LossNode Telegram: https://t.me/LossNode
+
+- NuLink Türkiye: https://t.me/NuLink_Turkey
+
+# Son olarak, NuLink testnet rehberini ondan ilham alarak hazırladığım [BlackOwl](https://twitter.com/brsbtc)'a teşekkür ediyorum. 
