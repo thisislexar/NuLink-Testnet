@@ -215,3 +215,6 @@ Feedback Linki: https://bit.ly/NuLinkFeedback
 - NuLink Türkiye: https://t.me/NuLink_Turkey
 
 # Son olarak, NuLink testnet rehberini ondan ilham alarak hazırladığım [BlackOwl](https://twitter.com/brsbtc)'a teşekkür ediyorum. 
+
+  
+# Ayrıca orijinal kurulum dokümantasyonuna bakmak isterseniz: [NuLink Docs](https://docs.nulink.org/products/testnet)
