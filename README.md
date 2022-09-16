@@ -26,6 +26,7 @@ NODE TİPİ | CPU     | RAM      | SSD     |
 
 ## NuLink için önemli linkler:
 - [Website](https://www.nulink.org/)
+- [Explorer(ımsı)](https://test-staking.nulink.org)
 - [Twitter](https://twitter.com/NuLink_)
 - [Discord](https://discord.gg/Vr5AGBbjBe)
 
