@@ -34,6 +34,7 @@ NODE TİPİ | CPU     | RAM      | SSD     |
 
 ```
 sudo su
+cd
 sudo ufw allow 9151
 sudo apt update && sudo apt upgrade -y
 sudo apt-get -y install libssl-dev && apt-get -y install cmake build-essential git wget jq make gcc
