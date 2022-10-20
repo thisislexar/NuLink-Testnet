@@ -1,6 +1,8 @@
 <h1 align="center">Ödüllü NuLink Testneti Güncelleme Rehberi
 
 ## Merhabalar, bugün daha öncesinde katıldığımız NuLink testneti için güncelleme yapıyor olacağız. Sağ üstten yıldızlayıp forklamayı unutmayalım. Sorularınız olursa: [LossNode Chat](https://t.me/LossNode)
+  
+Ayrıca NuLink Türkiye Telegram: https://t.me/NuLink_Turkey
 
 ## Node'u durdurun.
 
