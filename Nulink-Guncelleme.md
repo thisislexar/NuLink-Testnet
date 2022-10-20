@@ -1,4 +1,4 @@
-<h1 align="center">Ödüllü NuLink Horus Testneti Güncelleme Rehberi
+<h1 align="center">Ödüllü NuLink Testneti Güncelleme Rehberi
 
 ## Merhabalar, bugün daha öncesinde katıldığımız NuLink testneti için güncelleme yapıyor olacağız. Sağ üstten yıldızlayıp forklamayı unutmayalım. Sorularınız olursa: [LossNode Chat](https://t.me/LossNode)
 
