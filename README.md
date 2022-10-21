@@ -66,7 +66,7 @@ sudo apt install docker.io -y
 sudo systemctl enable --now docker
 docker pull nulink/nulink:latest
 cd $HOME
-mkdir NuLink
+mkdir nulink
 ```
 
 Aşağıdaki komut için değiştirmeniz gereken kısım, daha önce bir yere not ettiğimiz `path of the secret key file` kısmı. Yani görselde gördüğünüz sarı kutunun tamamı.
@@ -74,11 +74,11 @@ Aşağıdaki komut için değiştirmeniz gereken kısım, daha önce bir yere no
 
 
 ```
-cp <KENDİ PATH OF SECRET KEY FILE'INIZ> /root/NuLink
+cp <KENDİ PATH OF SECRET KEY FILE'INIZ> /root/nulink
 ```
 Ardından kopyaladığımız dosyaya izin veriyoruz.
 ```
-chmod -R 777 /root/NuLink
+chmod -R 777 /root/nulink
 ```
 
 # Node yapılandırması için kullanacağımız değişkenleri ayarlıyoruz. Ben kolaylık olması için şifrelerin hepsini aynı yapıyorum.
@@ -93,8 +93,8 @@ export NULINK_OPERATOR_ETH_PASSWORD=<İLK BAŞTA OLUŞTURDUĞUMUZ ŞİFRE>
 ```
 docker run -it --rm \
 -p 9151:9151 \
--v /root/NuLink:/code \
--v /root/NuLink:/home/circleci/.local/share/nulink \
+-v /root/nulink:/code \
+-v /root/nulink:/home/circleci/.local/share/nulink \
 -e NULINK_KEYSTORE_PASSWORD \
 nulink/nulink nulink ursula init \
 --signer keystore:///code/<PATH OF THE SECRET KEY'İN UTC'DEN İTİBAREN SONUNA KADAR OLAN KISMI> \
@@ -133,8 +133,8 @@ Düzenlemeleri yaptıktan sonra komutun tamamını terminale yapıştırıyoruz.
 docker run --restart on-failure -d \
 --name ursula \
 -p 9151:9151 \
--v /root/NuLink:/code \
--v /root/NuLink:/home/circleci/.local/share/nulink \
+-v /root/nulink:/code \
+-v /root/nulink:/home/circleci/.local/share/nulink \
 -e NULINK_KEYSTORE_PASSWORD \
 -e NULINK_OPERATOR_ETH_PASSWORD \
 nulink/nulink nulink ursula run --no-block-until-ready
@@ -150,7 +150,7 @@ Bu komutun ardından bize aşağıda sarı okla gösterdiğim çıktıyı veriyo
 apt install screen -y
 ```
 ```
-screen -S NuLinklogs
+screen -S nulinklogs
 docker logs -f ursula
 ```
 ![image](https://user-images.githubusercontent.com/101462877/190593031-73cf88d4-3e08-4649-9362-f631ba0ffa09.png)
